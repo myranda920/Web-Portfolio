@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Poster from "../../public/img/Old-Headshot.jpg";
+import Poster from "../../public/img/BackgroundImage1.jpg";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
 const Home = ({ leftImg, video, leftImgSrc }) => {
@@ -23,7 +23,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
         {leftImg && (
           <img
             className="leftimagepicture"
-            src={`${leftImgSrc ? leftImgSrc : "img/Old-Headshot.jpg"}`}
+            src={`${leftImgSrc ? leftImgSrc : "img/BackgroundImage1.jpg"}`}
             alt=""
           />
         )}

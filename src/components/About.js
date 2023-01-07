@@ -21,7 +21,7 @@ const About = () => {
             <div className="image-container">
               <img
                 className="img-fluid d-block"
-                src="img/dark-about.jpg"
+                src="img/Old-Headshot.jpg"
                 alt=""
               />
             </div>
@@ -55,8 +55,8 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Nationality</span>
-                    English
+                    <span className="font-weight-600">Title</span>
+                    Frontend Engineer
                   </h6>
                 </li>
                 <li>
@@ -88,8 +88,7 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone</span>+34 21 18 40
-                    10
+                    <span className="font-weight-600">Phone</span>(623) 272-9356
                   </h6>
                 </li>
                 <li>
@@ -100,20 +99,20 @@ const About = () => {
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Skype</span>
-                    daria.taylor
+                    <span className="font-weight-600">Github</span>
+                    github.com/myranda920
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Dribbble</span>
-                    taylor.dribbble
+                    <span className="font-weight-600">LinkedIn</span>
+                    linkedin.com/in/myrandapalomino
                   </h6>
                 </li>
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="#" className="btn btn-resume">
+              <a href="public/MyrandaPalomino1.23_Resume copy.pdf" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
                   download my cv
@@ -147,12 +146,12 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2017 - 2019
+                        sep 2022 - dec 2022
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web designer
+                        Frontend Engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Envato</span>
+                        <span className="font-weight-700">Cast the Magic Travel</span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -173,12 +172,12 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2014 - 2017
+                        jan 2022 - july 2022
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        web developer
+                        Frontend Engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Twitter</span>
+                        <span className="font-weight-700">Rene's Tireshop</span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -199,12 +198,12 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2010 - 2014
+                        july 2021 - jan 2022
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Consultant
+                        Frontend Engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Google</span>
+                        <span className="font-weight-700">AP Design</span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -234,13 +233,13 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2007 - 2010
+                        20014 - 2016
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Engineering Degree
+                        Bachelor of Science
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Istanbul University
+                          Arizona State University
                         </span>
                       </span>
                     </div>
@@ -328,11 +327,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
+                <span className="percent" style={{ right: "calc(0% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -344,11 +343,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
+                <span className="percent" style={{ right: "calc(0% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -360,11 +359,11 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
+                <span className="percent" style={{ right: "calc(0% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -372,15 +371,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">jquery</span>
+              <span className="skill-text">react</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={65}
-                  style={{ width: "65%" }}
+                  data-percent={100}
+                  style={{ width: "100%" }}
                 />
-                <span className="percent" style={{ right: "calc(35% - 21px)" }}>
-                  65%
+                <span className="percent" style={{ right: "calc(0% - 21px)" }}>
+                  100%
                   <b className="arrow" />
                 </span>
               </div>
@@ -388,15 +387,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">wordpress</span>
+              <span className="skill-text">typescript</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
+                  data-percent={80}
+                  style={{ width: "80%" }}
                 />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
                   <b className="arrow" />
                 </span>
               </div>
@@ -420,7 +419,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">illustrator</span>
+              <span className="skill-text">node.js</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -436,7 +435,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">after effects</span>
+              <span className="skill-text">aws amplify</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -452,7 +451,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">photoshop</span>
+              <span className="skill-text">vue</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
